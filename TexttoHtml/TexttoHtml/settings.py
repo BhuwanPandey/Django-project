@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '8=6s3gmshjz1l7s!alo0l*1b9b#vf(h=6qo(7x1q6-!32^3+bz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['texttohtmlgenerator.herokuapp.com','localhost']
 
 
 # Application definition
